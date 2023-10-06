@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>PeoplePerHour</title>
+</head>
+
+<body class = "bg-[rgba(245, 247, 250, 0.98);]">
+    <div class="flex  items-center justify-between">
+        <img class = "w-42 h-24"  src = "2.jpg">
+        <div id = 'nav' class = 'flex items-center '>
+            <div class="dropdown">
+                <button class="dropbtn flex items-center  mx-5"><img class = "w-5 mx-2"  src = "icons8-search-50.png">Search<img class = "w-5"  src = "down-arrow.png"></button>
+                <div class="dropdown-content">
+                  <a class = "" href="#">Search offers</a>
+                  <a href="#">Search freelancers</a>
+                  <a href="#">Search projects</a>
+                </div>
+              </div>
+            <div>
+                <button class="rounded-none bg-transparent w-32 h-14">How it works</button>
+            </div>
+            <div class="vl mx-1"></div>
+            <div>
+                <button class="rounded-none bg-transparent w-24 h-14">Log in</button>
+            </div>
+            <div>
+                <button class="rounded-none bg-transparent w-24 h-14">SIGN UP</button>
+            </div>
+            <div>
+                <button class="rounded-none text-amber-600 mr-5 bg-transparent w-24 h-14">FREELANCER?</button>
+            </div>
+        </div>
+        <div id = 'nav1' class = 'flex items-center '>
+            <div class="dropdown">
+                <button class="dropbtn  items-center  mx-5"><img class = "w-5 mx-2"  src = "menu.png"></button>
+                <div class="dropdown-content">
+                  <a class = "border border-sky-500" href="#">Search </a>
+                  <a class = "border border-sky-500" href="#">How it works</a>
+                  <a class = "border border-sky-500" href="#">Log in</a>
+                  <a class = "border border-sky-500" href="#">Sign up</a>
+                  <a class = "border border-sky-500" href="#">Freelancer?</a>
+                </div>
+              </div>
+           
+        </div>
+    </div>
+    <hr>
+    <div id = "bar" class = "flex justify-center items-center py-3 bg-gray-200 text-sm drop-shadow-lg  ">
+        <div>
+            <button class="rounded-none mx-4 bg-transparent ">Technology & Programming</button>
+        </div>
+        <div>
+            <button class="rounded-none mx-4 bg-transparent ">Writing & Translation</button>
+        </div>
+        <div>
+            <button class="rounded-none mx-4 bg-transparent ">Design</button>
+        </div>
+        <div>
+            <button class="rounded-none mx-4 bg-transparent ">Digital Marketing</button>
+        </div>
+        <div>
+            <button class="rounded-none mx-4 bg-transparent ">Video, Photo & Image</button>
+        </div>
+        <div>
+            <button class="rounded-none mx-4 bg-transparent ">Business</button>
+        </div>
+        <div>
+            <button class="rounded-none mx-4 bg-transparent ">Music & Audio</button>
+        </div>
+        <div>
+            <button class="rounded-none mx-4 bg-transparent ">MArketing,Branding & Sales</button>
+
+        </div>
+        <div>
+            <button class="rounded-none mx-4 bg-transparent ">Social Media</button>
+        </div>
+    </div>
+    <hr>
+    <div id = 'landing' class="flex justify-around items-center">
+        
+        <div class = "ml-52 ">
+            <h1 class="text-6xl text-red-700 font-bold" >Make bright <br> ideas happen</h1>
+            <p class = "text-2xl mt-10">Access global talent on the freelancer website <br>trusted by over 1 million businesses worldwide.</p>
+            <!-- component -->
+        <div class='flex items-center  my-10 justify-start '>
+            <div class="flex items-center   bg-white rounded-lg " x-data="{ search: '' }">
+                <div class=" border rounded-lg">
+                    <input type="search" class="  px-24 py-7 text-gray-800 rounded-full focus:outline-none"
+                        placeholder="Try Graphic design" x-model="search">
+                </div>
+                <div class = "">
+                    <button type="submit" class="flex items-center bg-red-600 justify-center w-20 h-20  text-white rounded-r-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div  class="flex items-center">
+            <p>Popular skills:</p>
+            <div>
+                <button class="rounded-md px-2 mx-2 bg-gray-200 ">Logo design</button>
+            </div>
+            <div>
+                <button class="rounded-md px-2 mx-2 bg-gray-200 ">Illustration</button>
+            </div>
+            <div>
+                <button class="rounded-md px-2 mx-2 bg-gray-200 ">animation</button>
+            </div>
+            <div>
+                <button class="rounded-md px-2 mx-2 bg-gray-200">3D design</button>
+            </div>
+        </div>
+    </div>
+        <img src = 'hero-instance-2--desktop.png'>
+    </div>
+
+    <div id = 'landing1' class="  ">
+        <div class= " ">
+            <img src = 'hero-instance-2--desktop.png'>
+        </div>
+        <div class = "mx-5">
+            <h1 class=" mx-16 text-4xl text-red-700 font-bold " >Make bright <br> ideas happen</h1>
+            <p class = "mx-5 text-1xl mt-10">Access global talent on the freelancer website <br>trusted by over 1 million businesses worldwide.</p>
+            <!-- component -->
+        <div class='flex items-center  my-10 justify-start '>
+            <div class="flex items-center   bg-white rounded-lg " x-data="{ search: '' }">
+                <div class=" border rounded-lg">
+                    <input type="search" class="  px-16 py-7 text-gray-800 rounded-full focus:outline-none"
+                        placeholder="Try Graphic design" x-model="search">
+                </div>
+                <div class = "">
+                    <button type="submit" class="flex items-center bg-red-600 justify-center w-20 h-20  text-white rounded-r-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class=" ml-5 items-center">
+            <div class = 'flex mb-5'>
+                <p>Popular skills:</p>
+                <div>
+                    <button class="rounded-md px-2 mx-2 bg-gray-200 ">Logo design</button>
+                </div>
+                <div>
+                    <button class="rounded-md px-2 mx-2 bg-gray-200 ">Illustration</button>
+                </div>
+            </div>
+            <div class = 'flex ml-16'>
+                <div>
+                    <button class="rounded-md px-2 mx-2 bg-gray-200 ">animation</button>
+                </div>
+                <div>
+                    <button class="rounded-md px-2 mx-2 bg-gray-200">3D design</button>
+                </div>
+            </div>
+           
+            
+        </div>
+        </div>
+</body>
